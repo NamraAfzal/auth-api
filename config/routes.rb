@@ -4,4 +4,6 @@ Rails.application.routes.draw do
     registrations: 'users/registrations'
   }
 
+  get '/member_details' => 'members#index'
+
 end
